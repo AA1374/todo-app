@@ -39,5 +39,24 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDmf_0o6SAe3VHvDEZCMObbiBrx_vY2NeU",
+        authDomain: "todolist-e1360.firebaseapp.com",
+        projectId: "todolist-e1360",
+        storageBucket: "todolist-e1360.appspot.com",
+        messagingSenderId: "335819287932",
+        appId: "1:335819287932:web:ff224ef05170ef81e288f9"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+  </script>
   </body>
 </html>
